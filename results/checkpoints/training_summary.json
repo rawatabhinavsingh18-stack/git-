@@ -1,0 +1,14 @@
+{
+  "model": "DeepDTACNN",
+  "epochs": 100,
+  "lr": 0.001,
+  "batch_size": 256,
+  "smoke": false,
+  "seed": 42,
+  "device": "cuda",
+  "best_epoch": 70,
+  "best_val_ci": 0.8866212962485939,
+  "initial_loss": 2.240251211057192,
+  "final_loss": 0.060579299072224264,
+  "elapsed_sec": 2024.83
+}

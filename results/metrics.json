@@ -1,0 +1,178 @@
+{
+  "dataset": "Davis",
+  "timestamp": "2026-10-11 02:26:49",
+  "random_split": {
+    "predict_the_mean": {
+      "ci": 0.5,
+      "mse": 0.8015143274995329,
+      "r2m": 0.0,
+      "aupr": 0.08323353293413174,
+      "spearman": 0.0
+    },
+    "deepdta_paper_cnn": {
+      "ci": 0.878,
+      "mse": 0.261,
+      "r2m": 0.63,
+      "aupr": 0.714,
+      "source": "DeepDTA paper (\u00d6zt\u00fcrk et al., 2018)"
+    },
+    "similarity_gbm": {
+      "ci": 0.8813364039419656,
+      "mse": 0.2828866425346739,
+      "r2m": 0.6003468591583261,
+      "aupr": 0.6975250440814408,
+      "spearman": 0.6894974792916394,
+      "fit_time_sec": 10.17,
+      "num_train": 25046,
+      "num_test": 5010
+    },
+    "dtaplus_ensemble": {
+      "ci": 0.8851877337588119,
+      "mse": 0.27404683478086345,
+      "r2m": 0.6008721956927556,
+      "aupr": 0.7088105192959497,
+      "spearman": 0.6954111035115929,
+      "fit_time_sec": 20.79,
+      "spearman_error_uncertainty": 0.49588266877184267
+    }
+  },
+  "cold_drug_split_5seeds": {
+    "predict_the_mean": {
+      "ci": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "mse": {
+        "mean": 0.8982,
+        "std": 0.1849
+      },
+      "r2m": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "aupr": {
+        "mean": 0.0989,
+        "std": 0.0235
+      },
+      "spearman": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "similarity_gbm": {
+      "ci": {
+        "mean": 0.7274,
+        "std": 0.0256
+      },
+      "mse": {
+        "mean": 0.6893,
+        "std": 0.1522
+      },
+      "r2m": {
+        "mean": 0.2442,
+        "std": 0.0294
+      },
+      "aupr": {
+        "mean": 0.3982,
+        "std": 0.0448
+      },
+      "spearman": {
+        "mean": 0.4335,
+        "std": 0.0569
+      }
+    },
+    "dtaplus_ensemble": {
+      "ci": {
+        "mean": 0.7298,
+        "std": 0.0321
+      },
+      "mse": {
+        "mean": 0.6813,
+        "std": 0.1457
+      },
+      "r2m": {
+        "mean": 0.2518,
+        "std": 0.0314
+      },
+      "aupr": {
+        "mean": 0.4042,
+        "std": 0.0485
+      },
+      "spearman": {
+        "mean": 0.438,
+        "std": 0.0681
+      }
+    }
+  },
+  "cold_target_split_5seeds": {
+    "predict_the_mean": {
+      "ci": {
+        "mean": 0.5,
+        "std": 0.0
+      },
+      "mse": {
+        "mean": 0.8592,
+        "std": 0.0439
+      },
+      "r2m": {
+        "mean": 0.0,
+        "std": 0.0
+      },
+      "aupr": {
+        "mean": 0.0918,
+        "std": 0.005
+      },
+      "spearman": {
+        "mean": 0.0,
+        "std": 0.0
+      }
+    },
+    "similarity_gbm": {
+      "ci": {
+        "mean": 0.8482,
+        "std": 0.0076
+      },
+      "mse": {
+        "mean": 0.3683,
+        "std": 0.0282
+      },
+      "r2m": {
+        "mean": 0.5439,
+        "std": 0.024
+      },
+      "aupr": {
+        "mean": 0.6688,
+        "std": 0.0353
+      },
+      "spearman": {
+        "mean": 0.6319,
+        "std": 0.0111
+      }
+    },
+    "dtaplus_ensemble": {
+      "ci": {
+        "mean": 0.8539,
+        "std": 0.0073
+      },
+      "mse": {
+        "mean": 0.3623,
+        "std": 0.0285
+      },
+      "r2m": {
+        "mean": 0.5444,
+        "std": 0.0226
+      },
+      "aupr": {
+        "mean": 0.6714,
+        "std": 0.0344
+      },
+      "spearman": {
+        "mean": 0.6418,
+        "std": 0.0108
+      }
+    }
+  },
+  "uncertainty_analysis": {
+    "random_split_spearman_error_uncertainty": 0.49588266877184267
+  }
+}
